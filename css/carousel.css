@@ -1,0 +1,201 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #212529;
+  font-family: "Comfortaa", sans-serif;
+
+}
+
+footer {
+text-align:center;
+}
+
+a {
+color:#148ca0;
+ }
+
+a:hover {
+color:#0c5460;
+ }
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 6rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 35rem;
+  background-color: #777;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 40rem;
+  opacity: 0.4;
+
+}
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.tagline {
+  margin-top: 5rem;
+	margin-bottom: 5rem;
+	font-size: 28px;
+	font-family: "Nanum Gothic", sans-serif;
+	text-align:center;
+}
+
+.featured {
+  margin: 50px 0;
+  text-align: center;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h3 {
+    margin-top: 1.5rem;
+}
+.marketing .col-lg-4 p {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+.rounded-circle {
+    opacity: 0.7;
+}
+
+
+
+/* Featurettes
+------------------------- */
+
+/* Space out the Bootstrap <hr> more */
+.featurette-divider {
+  margin: .1rem 0;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  margin: 20px;
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.05rem;
+  text-align: center;
+}
+
+.content-box p {
+	margin: 20px;
+}
+
+.sm-icons {
+height: 30px;
+display: inline-block;
+}
+
+.nav-right {
+float: right;
+margin-right: 20px;
+}
+
+/* ANIMATIONS
+---------------------------------------------------*/
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (min-width: 360px) and (max-width: 750px){
+  /* Bump up size of carousel content */
+
+  .navbar {
+    justify-content: flex-start;
+  }
+
+  .nav-right {
+    float: right;
+    margin-left: auto;
+  }
+
+  .carousel-item {
+    height: 30rem;
+    background-color: #777;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;}
+
+  .tagline {
+	  font-size: 20px;
+	  margin: 30px auto 0 auto;}
+
+  .featurette-image {
+     margin: auto;
+   }
+
+  .featurette-heading {
+     font-size: 50px;
+   }
+
+  .row {
+     max-width: 1200px;
+     margin: 30px 0 0 auto;
+   }
+
+  .row img {
+    float: left;
+    width: 25%;
+    height: auto;
+	  margin-top: 3rem;
+  }
+
+  .marketing .col-lg-4 p, h3 {
+    margin-left: 30%;
+	  text-align: left;
+	  font-size: 90%;
+  }
+
+  .col-lg-4 {
+    padding: 0;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+
+  .featurette-image {
+    margin: auto;
+  }
+
+  .carousel-item {
+    height: 30rem;
+    background-color: #777;
+  }
+
+
+}
